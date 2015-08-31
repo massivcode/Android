@@ -33,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         initLayers();
 
+
     }
 
     @Override
@@ -40,7 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mTransitionDrawable = new TransitionDrawable(colors);
 
         mImageView.setImageDrawable(mTransitionDrawable);
-        mTransitionDrawable.reverseTransition(1000);
+        mTransitionDrawable.reverseTransition(500);
 
         changeColors();
     }
